@@ -1,6 +1,7 @@
 # x86 JTAG Photos
 
-## Intel
+## Debuggers
+### Intel
 * Applied Microsystems CodeTAP
 * [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/ECM-700/ECM-700_revA5.md)
 * American Arium ECM-XDP
@@ -11,6 +12,14 @@
 * Intel ITP-XDP3
 * Intel ITP-XDP4
 
-## AMD
+### AMD
 * American Arium ECM-HDT
 * Sage SmartProbe
+
+## Connectors
+### Intel
+* ITP
+* XDP
+
+### AMD
+* HDT 
