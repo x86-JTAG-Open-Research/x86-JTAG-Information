@@ -14,7 +14,7 @@
 
 ### AMD
 * American Arium ECM-HDT
-* Sage SmartProbe
+* [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/SmartProbe/SmartProbe.md)
 
 ## Connectors
 ### Intel
