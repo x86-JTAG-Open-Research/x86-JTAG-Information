@@ -2,7 +2,7 @@
 
 ## Intel
 * Applied Microsystems CodeTAP
-* American Arium ECM-700
+* [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/ECM-700/ECM-700_revA5.md)
 * American Arium ECM-XDP
 * [American Arium ECM-XDP3 revB2](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/ECM-XDP3/ECM-XDP3_revB2.md)
 * ASSET Intertech (American Arium) ECM-XDP3e
