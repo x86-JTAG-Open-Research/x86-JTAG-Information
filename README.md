@@ -14,6 +14,7 @@
 
 ### AMD
 * American Arium ECM-HDT
+* ASSET Intertech (American Arium) ECM-XDP3e
 * [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/SmartProbe/SmartProbe.md)
 
 ## Connectors
