@@ -1,6 +1,6 @@
-# x86 JTAG Photos
+# x86 JTAG Information
 
-## Debuggers
+## Debugger Hardware
 ### Intel
 * Applied Microsystems CodeTAP
 * [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/ECM-700/ECM-700_revA5.md)
@@ -17,7 +17,7 @@
 * ASSET Intertech (American Arium) ECM-XDP3e
 * [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/SmartProbe/SmartProbe.md)
 
-## Connectors
+## Debugger Connector
 ### Intel
 * [In Target Probe (ITP)](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/Connectors/ITP.jpg)
 * [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/Connectors/XDP.jpg)
@@ -25,3 +25,13 @@
 ### AMD
 * Hardware Debug Tool (HDT)
 * [Embedded Probe Header](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/Connectors/EmbeddedProbeHeader.jpg)
+
+## Debugger Sofware
+### Intel
+* ASSET Intertech (American Arium) SourcePoint
+* CAD-UL XDB
+* Intel System Studio
+
+### AMD
+* ASSET Intertech (American Arium) SourcePoint
+* Sage Electronic Engineering Sage Embedded Development Kit (EDK)
