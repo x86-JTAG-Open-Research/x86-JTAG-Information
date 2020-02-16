@@ -34,4 +34,4 @@
 
 ### AMD
 * ASSET Intertech (American Arium) SourcePoint
-* Sage Electronic Engineering Sage Embedded Development Kit (EDK)
+* Sage Electronic Engineering Embedded Development Kit (EDK)
