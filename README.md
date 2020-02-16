@@ -30,6 +30,8 @@
 ### Intel
 * ASSET Intertech (American Arium) SourcePoint
 * CAD-UL XDB
+* Intel ITPII
+* Intel Platform Debug Toolkit (PDT)
 * Intel System Studio
 
 ### AMD
