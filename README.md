@@ -26,7 +26,7 @@
 * Hardware Debug Tool (HDT)
 * [Embedded Probe Header](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/Connectors/EmbeddedProbeHeader.jpg)
 
-## Debugger Sofware
+## Debugger Software
 ### Intel
 * ASSET Intertech (American Arium) SourcePoint
 * CAD-UL XDB
