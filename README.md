@@ -11,6 +11,8 @@
 * [Intel ITP-XDP2 rev02](https://github.com/Necrosys/x86-JTAG-Photos/blob/master/ITP-XDP2/ITP-XDP2_rev02.md)
 * Intel ITP-XDP3
 * Intel ITP-XDP4
+* Lauterbach LA-3776
+* Lauterbach LA-4607
 
 ### AMD
 * American Arium ECM-HDT
@@ -33,6 +35,7 @@
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
 * Intel System Studio
+* Lauterbach TRACE32
 
 ### AMD
 * ASSET Intertech (American Arium) SourcePoint
