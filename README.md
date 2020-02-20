@@ -13,6 +13,8 @@
 * Intel ITP-XDP4
 * Lauterbach LA-3776
 * Lauterbach LA-4607
+* Wind River ICE 2 with Intel Adapter Kit
+* Wind River Probe with Intel Adapter Kit
 
 ### AMD
 * American Arium ECM-HDT
@@ -36,6 +38,7 @@
 * Intel Platform Debug Toolkit (PDT)
 * Intel System Studio
 * Lauterbach TRACE32
+* Wind River Workbench On-Chip Debugging 
 
 ### AMD
 * ASSET Intertech (American Arium) SourcePoint
