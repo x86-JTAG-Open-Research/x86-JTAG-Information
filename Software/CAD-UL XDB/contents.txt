@@ -1,0 +1,263 @@
+CAD-UL Tool Suite for CodeTAP for Intel(R) Architecture 
+CD-Version: V403_013 		      
+-------------------------------------------------------------
+--------------- NEW CD DISTRIBUTION CREATED --------------------
+	User: Mr
+	Date: 2.5.2001 
+	Time: 7:32:36
+	VersionInfo: 
+		CC386:C Compiler
+		CC386:cc386\disk1
+		Text:C Compiler
+		Disk:cc386\disk1
+		PCODE:C301X1XX
+		Fileset:V415_set.003
+		CC386:V715H
+		LIBC:V510
+		AS386:V401C
+		OBJ386:V351
+		Abs386:V200B
+		Lib386:V200C
+		Link386:V237
+		INI386:V205
+		OMF3BND:V324C
+		OptDLL386:V202D
+		NT_DLL:V110
+		FLEXLMDLL:V103a
+		Licshow:V100B
+		FLEXLMHOSTID:V101
+		OPT386:V202D
+		OPTIONS:V202D
+		BatchDemoVers:V104
+		WbDemoVers:V105
+-------------------------------------------------------------
+		CXX386:C/C++ Compiler
+		CXX386:cxx386\disk1
+		Text:C/C++ Compiler
+		Disk:cxx386\disk1
+		PCODE:D301X1XX
+		FILESET:V415_set.003
+		CXX386:V415H
+		LIBX:V412
+		LIBX_STL:V212
+		CC386:V715H
+		LIBC:V510
+		AS386:V401C
+		OBJ386:V351
+		Abs386:V200B
+		Lib386:V200C
+		Link386:V237
+		INI386:V205
+		OMF3BND:V324C
+		OptDLL386:V202D
+		NT_DLL:V110
+		FLEXLMDLL:v103a
+		Licshow:V100B
+		FLEXLMHOSTID:V101
+		OPT386:V202D
+		OPTIONS:V202D
+		BatchDemoVers:V104
+		WbDemoVers_CC386:V105
+		WbDemoVers_CXX386:V107
+-------------------------------------------------------------
+		Wbench:Workbench
+		Wbench:wbench\disk1
+		Text:Workbench
+		Disk:wbench\disk1
+		PCODE:W301X1XX
+		Fileset:V120C.004
+		Wbench:V120C
+		Options:V202D
+		OPTION386:V202D
+		FLEXLMDLL:v103a
+		LICSHOW:v100b
+		FLEXLMHOSTID:v101
+		TEMPLATE:V103
+		TUT386:V101
+		SYNTAXCOLOR:V101
+-------------------------------------------------------------
+		glink:Glink
+		glink:glink\disk1
+		Text:Glink
+		Disk:glink\disk1
+		PCODE:Z301X1XX
+		Fileset:V100A.003
+		GlinkVers:V100A
+		TEMPLATE:V100A
+		SYSTEMDLL:V100A
+		FLEXLMDLL:v103a
+		LICSHOW:v100b
+		FLEXLMHOSTID:v101
+		WbDemoVers:V103
+-------------------------------------------------------------
+		DBG2BD:ELF Debug Preprocessor
+		DBG2BD:dbg2bd\disk1
+		Text:ELF Debug Preprocessor
+		Disk:dbg2bd\disk1
+		Fileset:V101G
+		PCODE:K301X11X
+		DBG2BD:V101G
+		FLEXLMDLL:v103a
+		Licshow:V100B
+		HOSTID:V101
+-------------------------------------------------------------
+		xdbwin32:XDB Native
+		xdbwin32:xdbwin32\disk1
+		Text:XDB Native
+		Disk:xdbwin32\disk1
+		PCODE:X365X1XX
+		ExeName:xdbw32.exe
+		Fileset:V450B.001
+		XdbVers:V450B.PAT
+		Omf3bnd:V324C
+		CCOV:V200A
+		MonExe:V100C
+		NT_DLL:V110
+		BiteditDLL:V200A
+		EapiDLL:V200A
+		TistubDLL:V200B
+		TiDLL:V200C
+		GuiDLL:V200B
+		XdbGuiDLL:V100D
+		GuiIniDLL:V100A
+		TdiDLL:V200A
+		StartDLL:V100B
+		XdbHelpDLL:V100
+		XdbHelp:B1.02
+		FLEXLMDLL:v103a
+		LICSHOW:V100B
+		FLEXLMHOSTID:V101
+		WbDemoVers:V100E
+		WbCcovDemoVers:V100B
+-------------------------------------------------------------
+		xdbsim:XDB Simulator
+		xdbsim:xdbsim\disk1
+		Text:XDB Simulator
+		Disk:xdbsim\disk1
+		PCODE:X375G1XX
+		ExeName:xdbsim.exe
+		Fileset:V411F.006
+		XdbVers:V411F.pat
+		Omf3bnd:V324C
+		BiteditDLL:V100A
+		EapiDLL:V100M
+		TistubDLL:V100D
+		TiDLL:V100A
+		GuiDLL:V100A
+		XdbHelpDLL:V100
+		XdbHelp:B1.03
+		FLEXLMDLL:v103a
+		LICSHOW:V100B
+		FLEXLMHOSTID:V101
+		WbDemoVers:V100D
+		SimDevices:V100A
+-------------------------------------------------------------
+		xdb:XDB CodeTAP for Intel(R) Architecture
+		xdb:xdb\disk1
+		Text:XDB CodeTAP for Intel(R) Architecture
+		Disk:xdb\disk1
+		PCODE:X377G1XX
+		OrgExeName:xdbx86.exe
+		ExeName:xdbapii.exe
+		Fileset:V450F_03
+		XdbVers:V450F_02.flx
+		XdbHelp:refman\PDF\B1.03
+		XdbPdf:ctap_p\pdf\A2.01
+		Omf3bnd:V324C
+		Bitedit:V200A
+		EAPI:V200D
+		TISTUB:V200B
+		TI:V100G
+		GUI:V100G
+		GUIINI:V100A
+		XDBGUIVERS:V100F_02
+		AMCSHELL:V133
+		AMCCORE:V120
+		RULE:v200c
+		WbDemoVers:v504
+		BatchDemoVers:v504
+-------------------------------------------------------------
+		tcltk:Plug-in Tcl/Tk
+		tcltk:tcltk\disk1
+		Text:Plug-in Tcl/Tk
+		Disk:tcltk\disk1
+		PCODE:X301L1DX
+		OrgDllName:tcl.dll
+		Fileset:V100B
+		DllVers:V100B.pat
+		EAPI:V200D
+		TISTUB:V200D
+		TclHelp:tcltk\pdf\a2.01
+		DemoVers:v100B
+-------------------------------------------------------------
+		Locater:Transition Package
+		Locater:locater\disk1
+		Text:Transition Package
+		Disk:locater\disk1
+		Fileset:V101i_01
+		Abs386:V200B
+		Lib386:V200C
+		Link386:V223.pat
+		Omf3bnd:V312F
+		Tools:NT\V101i
+		Toomf386:V101i.ncc
+-------------------------------------------------------------
+		flexlm:Flexlm License Management
+		flexlm:flexlm\disk1
+		Text:Flexlm License Management
+		Disk:flexlm\disk1
+		FILESET:V103.001
+		Flexlm:5.12
+-------------------------------------------------------------
+		install\D301X1XD:Tool Suite Documentation
+		install\D301X1XD:D301X1XD\disk1
+		Text:Tool Suite Documentation
+		Disk:D301X1XD\disk1
+		PCODE:D301X1XD
+		FILESET:V415h.000
+		WBENCH:a2.02
+		WBENCH_RELNOT:v120c
+		CXX386:B1.01
+		CXX386_RELNOT:v415h
+		CC386_RELNOT:v715h
+		LIBIO:a1.01
+		LIBCXX_RELNOT:v210
+		LIBC_RELNOT:v510
+		AS386:a4.01
+		AS386_RELNOT:dummy
+		GLINK:a4.01
+		LINK386_RELNOT:v237
+		LIB386_RELNOT:dummy
+		ABS386_RELNOT:dummy
+		INI386_RELNOT:dummy
+		OBJ386_RELNOT:dummy
+		XDBREF:b1.03
+		XDBREF_RELNOT:V450b
+		OMF3BND_RELNOT:v324c
+-------------------------------------------------------------
+		install\X365X1XD:XDB Native Documentation
+		install\X365X1XD:X365X1XD\disk1
+		Text:XDB Native Documentation
+		Disk:X365X1XD\disk1
+		PCODE:X365X1XD
+		FILESET:V450b.000
+		MASTER:V450B
+		XDBREF:b1.03
+		XDBREF_RELNOT:V450B
+		OMF3BND_RELNOT:v324c
+		SEGMENT:a1.01
+		XDBW32_RELNOT:V450B
+		CODECOV:a1.01
+		CODECOV_RELNOT:v200a
+-------------------------------------------------------------
+		install\X375G1XD:XDB Simulator Documentation
+		install\X375G1XD:X375G1XD\disk1
+		Text:XDB Simulator Documentation
+		Disk:X375G1XD\disk1
+		PCODE:X375G1XD
+		FILESET:V411f.000
+		MASTER:V411F
+		XDBREF:b1.03
+		OMF3BND_RELNOT:v324c
+		XDBSIM:a1.02
+-------------------------------------------------------------
