@@ -33,7 +33,7 @@
 ## Debugger Software
 ### Intel
 * ASSET Intertech (American Arium) SourcePoint
-* CAD-UL XDB
+* [CAD-UL XDB](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
 * Intel System Studio
