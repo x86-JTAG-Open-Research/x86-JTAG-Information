@@ -42,4 +42,4 @@
 
 ### AMD
 * ASSET Intertech (American Arium) SourcePoint
-* Sage Electronic Engineering Embedded Development Kit (EDK)
+* [Sage Electronic Engineering Embedded Development Kit (EDK)](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/Sage%20EDK)
