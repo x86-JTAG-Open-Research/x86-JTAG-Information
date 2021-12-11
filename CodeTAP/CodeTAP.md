@@ -10,3 +10,4 @@
 ![CodeTAP 8](https://github.com/Necrosys/x86-JTAG-Information/blob/master/CodeTAP/CodeTAP_8.jpg)
 ## Firmware
 * Processor type: PowerPC (MPC850) big endian
+* OS: Ecore Firmware (Wind River Systems VxWorks variant?)
