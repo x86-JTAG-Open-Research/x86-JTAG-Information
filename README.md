@@ -48,4 +48,6 @@
 
 ### AMD
 * ASSET Intertech (American Arium) SourcePoint
+* AMD Hardware Debug Tool (HDT)
+* AMD BIOSDBG
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/Sage%20EDK)
