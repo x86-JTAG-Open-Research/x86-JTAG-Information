@@ -22,6 +22,9 @@
 ### AMD
 * American Arium ECM-HDT
 * [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ECM-XDP3e/ECM-XDP3e.md)
+* AMD Possum
+* AMD Purple Possum
+* AMD Wombat
 * [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/SmartProbe/SmartProbe.md)
 
 ## Debugger Connector
