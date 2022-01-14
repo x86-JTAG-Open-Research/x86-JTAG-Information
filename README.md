@@ -2,15 +2,15 @@
 
 ## Debugger Hardware
 ### Intel
-* [Applied Microsystems CodeTAP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/CodeTAP/CodeTAP.md)
-* [American Arium ECM-50](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ECM-50/ECM-50.md)
-* [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ECM-700/ECM-700_revA5.md)
+* [Applied Microsystems CodeTAP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP.md)
+* [American Arium ECM-50](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-50/ECM-50.md)
+* [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_revA5.md)
 * American Arium ECM-XDP
-* [American Arium ECM-XDP3 revB2](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ECM-XDP3/ECM-XDP3_revB2.md)
-* [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ECM-XDP3e/ECM-XDP3e.md)
+* [American Arium ECM-XDP3 revB2](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3/ECM-XDP3_revB2.md)
+* [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3e/ECM-XDP3e.md)
 * ASSET Intertech (American Arium) ECM-CCC
 * Intel ITP-XDP
-* [Intel ITP-XDP2 rev02](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ITP-XDP2/ITP-XDP2_rev02.md)
+* [Intel ITP-XDP2 rev02](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ITP-XDP2/ITP-XDP2_rev02.md)
 * Intel ITP-XDP3
 * Intel ITP-XDP4
 * Intel SVT CCA (Silicon View Technology Closed Chassis Adapter)
@@ -21,11 +21,11 @@
 
 ### AMD
 * American Arium ECM-HDT
-* [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/ECM-XDP3e/ECM-XDP3e.md)
+* [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3e/ECM-XDP3e.md)
 * AMD HDT Debug Kit (Possum)
 * AMD HDT/LPC Debug Kit (Purple Possum)
 * AMD HDT Platform Debug Kit (Wombat)
-* [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/SmartProbe/SmartProbe.md)
+* [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/SmartProbe/SmartProbe.md)
 
 ## Debugger Connector
 ### Intel
