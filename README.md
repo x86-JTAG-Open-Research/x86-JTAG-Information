@@ -33,7 +33,7 @@
 * [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/XDP.jpg)
 
 ### AMD
-* Hardware Debug Tool (HDT)
+* [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/HDT.md)
 * [Embedded Probe Header](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/EmbeddedProbeHeader.jpg)
 
 ## Debugger Software
