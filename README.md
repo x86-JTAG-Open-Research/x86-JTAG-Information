@@ -30,7 +30,7 @@
 ## Debugger Connector
 ### Intel
 * [In Target Probe (ITP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/ITP.md)
-* [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/XDP.jpg)
+* [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/XDP.md)
 
 ### AMD
 * [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/HDT.md)
