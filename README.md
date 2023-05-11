@@ -43,6 +43,7 @@
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
 * Intel System Studio
+* Intel System Debugger
 * Lauterbach TRACE32
 * Wind River Workbench On-Chip Debugging 
 
