@@ -5,6 +5,8 @@
 ![ECM-700 revA5 3](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_revA5_3.jpg)
 ![ECM-700 revA5 4](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_revA5_4.jpg)
 ![ECM-700 revA5 5](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_revA5_5.jpg)
+![ECM-700 Power Supply 1](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_PS.jpg)
+![ECM-700 Power Supply 2](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_PS2.jpg)
 ## Firmware
 * Processor type: ARM big endian
 * OS: MQX RTOS
