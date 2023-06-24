@@ -8,6 +8,8 @@
 ![CodeTAP 6](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP_6.jpg)
 ![CodeTAP 7](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP_7.jpg)
 ![CodeTAP 8](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP_8.jpg)
+![CodeTAP Personality Board (Front)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP_PB_Front.jpg)
+![CodeTAP Personality Board (Back)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP_PB_Back.jpg)
 ## Firmware
 * Processor type: PowerPC (MPC850) big endian
 * OS: Ecore Firmware (Wind River Systems VxWorks variant?)
