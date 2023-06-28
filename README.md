@@ -12,6 +12,8 @@
 * Intel ITP-XDP
 * [Intel ITP-XDP2 rev02](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ITP-XDP2/ITP-XDP2_rev02.md)
 * Intel ITP-XDP3
+* Intel ITP-XDP3B
+* Intel ITP-XDP3BR
 * Intel ITP-XDP4
 * Intel SVT CCA (Silicon View Technology Closed Chassis Adapter)
 * Lauterbach LA-3776
