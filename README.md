@@ -3,6 +3,8 @@
 ## Debugger Hardware
 ### Intel
 * [Applied Microsystems CodeTAP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP.md)
+* [American Arium ECM-S2](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-S2/ECM-S2.md)
+* [American Arium ECM-20](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-20/ECM-20.md)
 * [American Arium ECM-50](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-50/ECM-50.md)
 * [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_revA5.md)
 * American Arium ECM-XDP
