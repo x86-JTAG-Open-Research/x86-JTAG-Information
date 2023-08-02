@@ -35,9 +35,9 @@
 ### Intel
 * [Interposer](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/Interposer.md)
 * In Target Probe (ITP)
-** [ITP (Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
-** [ITP (Pentium 3 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
-** [ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
+    * [ITP (Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
+    * [ITP (Pentium 3 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
+    * [ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
 * [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
 
 ### AMD
