@@ -31,13 +31,16 @@
 
 ## Debugger Connector
 ### Intel
-* [Interposer](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/Interposer.md)
-* [In Target Probe (ITP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/ITP.md)
-* [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/XDP.md)
+* [Interposer](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/Interposer.md)
+* In Target Probe (ITP)
+** [ITP (Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
+** [ITP (Pentium 3 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
+** [ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
+* [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
 
 ### AMD
-* [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/HDT.md)
-* [Embedded Probe Header](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connectors/EmbeddedProbeHeader.jpg)
+* [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
+* [Embedded Probe Header](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/EmbeddedProbeHeader.jpg)
 
 ## Debugger Software
 ### Intel
