@@ -16,7 +16,7 @@
 * ASSET Intertech (American Arium) ECM-CCC
 * Intel ITP-XDP
 * [Intel ITP-XDP2 rev02](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ITP-XDP2/ITP-XDP2_rev02.md)
-* Intel ITP-XDP3
+* [Intel ITP-XDP3](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ITP-XDP3/ITP-XDP3.md)
 * Intel ITP-XDP3B
 * Intel ITP-XDP3BR
 * Intel ITP-XDP4
