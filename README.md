@@ -41,7 +41,9 @@
     * [ITP (Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
     * [ITP (Pentium 3 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
     * [ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
-* [eXtended Debug Port (XDP)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
+* eXtended Debug Port (XDP)
+    * [XDP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
+    * [XDP-SFF-26](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-26.md)
 
 ### AMD
 * [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
