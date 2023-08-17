@@ -44,6 +44,7 @@
 * eXtended Debug Port (XDP)
     * [XDP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
     * [XDP-SFF-26](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-26.md)
+    * [XDP-SSA](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SSA.md)
 
 ### AMD
 * [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
