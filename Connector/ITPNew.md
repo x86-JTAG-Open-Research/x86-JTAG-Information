@@ -1,4 +1,4 @@
-# Intel ITP (Pentium III or later)
+# Intel 30-pin "New" ITP (Pentium III or later)
 ## Populated
 ![Populated](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP/ITPNew_P.jpg)
 ## Not populated

@@ -1,4 +1,4 @@
-# Intel XDP-SSA
+# Intel 31-pin XDP-SSA
 ## Populated
 TODO
 ## Not populated
