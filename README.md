@@ -38,6 +38,7 @@
 ### Intel
 * [Interposer](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/Interposer.md)
 * In Target Probe (ITP)
+    * [20-pin "Old" ITP (Original Pentium family single processor only)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld20.md)
     * [ITP (Original Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
     * [ITP (Pentium III or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
     * [ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
