@@ -44,6 +44,7 @@
     * [25-pin ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
 * eXtended Debug Port (XDP)
     * [60-pin XDP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
+    * [24-pin XDP-SFF-24](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-24.md)
     * [26-pin XDP-SFF-26](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-26.md)
     * [31-pin XDP-SSA](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SSA.md)
 
