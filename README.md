@@ -42,6 +42,7 @@
     * [30-pin "Old" ITP (Original Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
     * [30-pin "New" ITP (Pentium III or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
     * [25-pin ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
+    * [28-pin ITP700 Flex (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700Flex.md)
 * eXtended Debug Port (XDP)
     * [60-pin XDP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
     * [24-pin XDP-SFF-24](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-24.md)
