@@ -27,6 +27,7 @@
 * Wind River Probe with Intel Adapter Kit
 
 ### AMD
+* [American Arium ECM-50](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-50/ECM-50.md) with PBD-AJ module
 * American Arium ECM-HDT
 * [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3e/ECM-XDP3e.md)
 * AMD HDT Debug Kit (Possum)
