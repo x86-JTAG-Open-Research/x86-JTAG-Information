@@ -52,6 +52,7 @@
 
 ### AMD
 * Hardware Debug Tool (HDT)
+    * [25-pin HDT](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
     * [20-pin HDT+](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDTPlus.md)
 * [16-pin Embedded Probe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/EmbeddedProbe.md)
 
