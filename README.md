@@ -51,7 +51,7 @@
 
 ### AMD
 * [Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
-* [Embedded Probe Header](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/EmbeddedProbeHeader.jpg)
+* [Embedded Probe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/EmbeddedProbe.md)
 
 ## Debugger Software
 ### Intel
