@@ -50,7 +50,8 @@
     * [31-pin XDP-SSA](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SSA.md)
 
 ### AMD
-* [20-pin Hardware Debug Tool (HDT)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
+* Hardware Debug Tool (HDT)
+    * [20-pin HDT+](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDTPlus.md)
 * [16-pin Embedded Probe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/EmbeddedProbe.md)
 
 ## Debugger Software
