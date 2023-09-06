@@ -74,8 +74,4 @@
 * AMD BIOSDBG
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/Sage%20EDK)
 
-## Debugger Target
-### Intel
-* TODO?
-### AMD
-* TODO?
+## [Debugger Target](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Target/Target.md)
