@@ -58,8 +58,8 @@
 
 ## Debugger Software
 ### Intel
-* American Arium WinDb
-* ASSET Intertech (American Arium) SourcePoint
+* [American Arium WinDb](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/SourcePoint)
+* [ASSET Intertech (American Arium) SourcePoint](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/SourcePoint)
 * [CAD-UL XDB](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
