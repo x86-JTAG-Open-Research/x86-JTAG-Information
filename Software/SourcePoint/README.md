@@ -1,7 +1,7 @@
 # ASSET Intertech (American Arium) SourcePoint (Formally WinDB)
 
 ## Disclaimer
-The purpose of this page is to provide the public with historical offical SourcePoint (Formally WinDB) installer that has been discontinued and end of life.  
+The purpose of this page is to provide the public with historical official SourcePoint (Formally WinDB) installer that has been discontinued and end of life.  
 The information in this page has been provided for the user’s convenience without any representation or warranty of accuracy or completeness when posted. Moreover, the x86-JTAG-Information undertakes no obligation to update any information included in this page.
 
 ## Requirements
