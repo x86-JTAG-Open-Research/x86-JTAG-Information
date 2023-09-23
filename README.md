@@ -69,7 +69,7 @@
 * Wind River Workbench On-Chip Debugging 
 
 ### AMD
-* ASSET Intertech (American Arium) SourcePoint
+* [ASSET Intertech (American Arium) SourcePoint](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/SourcePoint)
 * AMD Hardware Debug Tool (HDT)
 * AMD BIOSDBG
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/Sage%20EDK)
