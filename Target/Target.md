@@ -12,6 +12,7 @@ NOTE 2: There are many more "probably debuggable" targets out there. This list i
 | Server | IBM | eServer xSeries 335 | Intel Pentium 4 based Xeon | 25-pin ITP700 | Yes | x86_64 capable, but CPU replacement needed |
 | Server | IBM | eServer xSeries 336 | Intel Pentium 4 based Xeon | 25-pin ITP700 | Yes | x86_64 capable |
 | Development Board | CircuitCo or ADI Engineering or Silicom | MinnowBoard Series | Intel Atom Family (Tunnel Creek or Bay Trail) | 60-pin XDP | Yes | Additional "Lure" board needed |
+| Server | Dell | PowerEdge C6105 | AMD Opteron 4100, 4200 and 4300 Series | 20-pin HDT+ | Yes or No | |
 | Development Board | GizmoSphere | Gizmo | AMD G-Series SOC (FT1) | 16-pin Embedded Probe | Yes | |
 | Development Board | GizmoSphere | Gizmo II | AMD G-Series SOC (FT3) | 16-pin Embedded Probe | Yes | |
 | TODO | TODO! | TODO!! | TODO!!! | TODO!!!! | TODO!!!!! | TODO!!!!!! |
