@@ -1,11 +1,11 @@
 # AMD 20-pin HDT+
 ## Specifications
 ### Pin Pitch
-1.27mm?
+1.27mm
 ### Number Of Pins
 20 (2 * 10)
 ### Compatible Receptacles
-TODO
+- Samtec ASP-137098-05
 ### Pinout
 | Name | Pin Number | Pin Number | Name |
 | - | - | - | - |
