@@ -1,5 +1,5 @@
 # Intel 30-pin "Old" ITP (Original Pentium or later)
 ## Populated
-![Populated](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP/ITPOld_P.jpg)
+![Populated](./ITP/ITPOld_P.jpg)
 ## Not populated
-![Not populated](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP/ITPOld_NP.jpg)
+![Not populated](./ITP/ITPOld_NP.jpg)

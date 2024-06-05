@@ -21,6 +21,6 @@
 | VDDIO | 19 | 20 | TEST18 |
 ## Photos
 ### Populated
-![Populated](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT/HDTPlus_P.jpg)
+![Populated](./HDT/HDTPlus_P.jpg)
 ### Not populated
-![Not populated](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT/HDTPlus_NP.jpg)
+![Not populated](./HDT/HDTPlus_NP.jpg)

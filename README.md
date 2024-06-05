@@ -1,22 +1,22 @@
 # x86 JTAG Information
 
 ## Overview
-![Overview](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Overview.gif)
+![Overview](./Overview.gif)
 
 ## Debugger Hardware
 ### Intel
-* [Applied Microsystems CodeTAP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/CodeTAP/CodeTAP.md)
-* [American Arium ECM-S2](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-S2/ECM-S2.md)
-* [American Arium ECM-20](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-20/ECM-20.md)
-* [American Arium ECM-50](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-50/ECM-50.md)
-* [American Arium ECM-700 revA5](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-700/ECM-700_revA5.md)
+* [Applied Microsystems CodeTAP](./Hardware/CodeTAP/CodeTAP.md)
+* [American Arium ECM-S2](./Hardware/ECM-S2/ECM-S2.md)
+* [American Arium ECM-20](./Hardware/ECM-20/ECM-20.md)
+* [American Arium ECM-50](./Hardware/ECM-50/ECM-50.md)
+* [American Arium ECM-700 revA5](./Hardware/ECM-700/ECM-700_revA5.md)
 * American Arium ECM-XDP
-* [American Arium ECM-XDP3 revB2](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3/ECM-XDP3_revB2.md)
-* [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3e/ECM-XDP3e.md)
+* [American Arium ECM-XDP3 revB2](./Hardware/ECM-XDP3/ECM-XDP3_revB2.md)
+* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e/ECM-XDP3e.md)
 * ASSET Intertech (American Arium) ECM-CCC
 * Intel ITP-XDP
-* [Intel ITP-XDP2 rev02](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ITP-XDP2/ITP-XDP2_rev02.md)
-* [Intel ITP-XDP3](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ITP-XDP3/ITP-XDP3.md)
+* [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2/ITP-XDP2_rev02.md)
+* [Intel ITP-XDP3](./Hardware/ITP-XDP3/ITP-XDP3.md)
 * Intel ITP-XDP3B
 * Intel ITP-XDP3BR
 * Intel ITP-XDP4
@@ -27,40 +27,40 @@
 * Wind River Probe with Intel Adapter Kit
 
 ### AMD
-* [American Arium ECM-50](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-50/ECM-50.md) with PBD-AJ module
+* [American Arium ECM-50](./Hardware/ECM-50/ECM-50.md) with PBD-AJ module
 * American Arium ECM-HDT
-* [ASSET Intertech (American Arium) ECM-XDP3e](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/ECM-XDP3e/ECM-XDP3e.md)
+* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e/ECM-XDP3e.md)
 * AMD HDT Debug Kit (Possum)
 * AMD HDT/LPC Debug Kit (Purple Possum)
 * AMD HDT Platform Debug Kit (Wombat)
-* [Sage Electronic Engineering SmartProbe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Hardware/SmartProbe/SmartProbe.md)
+* [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe/SmartProbe.md)
 
 ## Debugger Connector
 ### Intel
-* [Interposer](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/Interposer.md)
+* [Interposer](./Connector/Interposer.md)
 * In Target Probe (ITP)
-    * [20-pin "Old" ITP (Original Pentium family single processor only)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld20.md)
-    * [30-pin "Old" ITP (Original Pentium or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPOld.md)
-    * [30-pin "New" ITP (Pentium III or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITPNew.md)
-    * [25-pin ITP700 (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700.md)
-    * [28-pin ITP700 Flex (Pentium 4 or later)](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/ITP700Flex.md)
+    * [20-pin "Old" ITP (Original Pentium family single processor only)](./Connector/ITPOld20.md)
+    * [30-pin "Old" ITP (Original Pentium or later)](./Connector/ITPOld.md)
+    * [30-pin "New" ITP (Pentium III or later)](./Connector/ITPNew.md)
+    * [25-pin ITP700 (Pentium 4 or later)](./Connector/ITP700.md)
+    * [28-pin ITP700 Flex (Pentium 4 or later)](./Connector/ITP700Flex.md)
 * eXtended Debug Port (XDP)
-    * [60-pin XDP](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP.md)
-    * [24-pin XDP-SFF-24](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-24.md)
-    * [26-pin XDP-SFF-26](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SFF-26.md)
-    * [31-pin XDP-SSA](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/XDP-SSA.md)
+    * [60-pin XDP](./Connector/XDP.md)
+    * [24-pin XDP-SFF-24](./Connector/XDP-SFF-24.md)
+    * [26-pin XDP-SFF-26](./Connector/XDP-SFF-26.md)
+    * [31-pin XDP-SSA](./Connector/XDP-SSA.md)
 
 ### AMD
 * Hardware Debug Tool (HDT)
-    * [25-pin HDT](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDT.md)
-    * [20-pin HDT+](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/HDTPlus.md)
-* [16-pin Embedded Probe](https://github.com/Necrosys/x86-JTAG-Information/blob/master/Connector/EmbeddedProbe.md)
+    * [25-pin HDT](./Connector/HDT.md)
+    * [20-pin HDT+](./Connector/HDTPlus.md)
+* [16-pin Embedded Probe](./Connector/EmbeddedProbe.md)
 
 ## Debugger Software
 ### Intel
-* [American Arium WinDb](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/SourcePoint)
-* [ASSET Intertech (American Arium) SourcePoint](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/SourcePoint)
-* [CAD-UL XDB](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/CAD-UL%20XDB)
+* [American Arium WinDb](./Software/SourcePoint)
+* [ASSET Intertech (American Arium) SourcePoint](./Software/SourcePoint)
+* [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
 * Intel System Studio
@@ -69,9 +69,9 @@
 * Wind River Workbench On-Chip Debugging 
 
 ### AMD
-* [ASSET Intertech (American Arium) SourcePoint](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/SourcePoint)
+* [ASSET Intertech (American Arium) SourcePoint](./Software/SourcePoint)
 * AMD Hardware Debug Tool (HDT)
 * AMD BIOSDBG
-* [Sage Electronic Engineering Embedded Development Kit (EDK)](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Software/Sage%20EDK)
+* [Sage Electronic Engineering Embedded Development Kit (EDK)](./Software/Sage%20EDK)
 
-## [Debugger Target](https://github.com/Necrosys/x86-JTAG-Information/tree/master/Target/Target.md)
+## [Debugger Target](./Target/Target.md)
