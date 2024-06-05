@@ -5,35 +5,35 @@
 
 ## Debugger Hardware
 ### Intel
-* [Applied Microsystems CodeTAP](./Hardware/CodeTAP/CodeTAP.md)
-* [American Arium ECM-S2](./Hardware/ECM-S2/ECM-S2.md)
-* [American Arium ECM-20](./Hardware/ECM-20/ECM-20.md)
-* [American Arium ECM-50](./Hardware/ECM-50/ECM-50.md)
-* [American Arium ECM-700 revA5](./Hardware/ECM-700/ECM-700_revA5.md)
+* [Applied Microsystems CodeTAP](./Hardware/CodeTAP.md)
+* [American Arium ECM-S2](./Hardware/ECM-S2.md)
+* [American Arium ECM-20](./Hardware/ECM-20.md)
+* [American Arium ECM-50](./Hardware/ECM-50.md)
+* [American Arium ECM-700 revA5](./Hardware/ECM-700_revA5.md)
 * American Arium ECM-XDP
-* [American Arium ECM-XDP3 revB2](./Hardware/ECM-XDP3/ECM-XDP3_revB2.md)
-* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e/ECM-XDP3e.md)
+* [American Arium ECM-XDP3 revB2](./Hardware/ECM-XDP3_revB2.md)
+* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * ASSET Intertech (American Arium) ECM-CCC
 * Intel ITP-XDP
-* [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2/ITP-XDP2_rev02.md)
-* [Intel ITP-XDP3](./Hardware/ITP-XDP3/ITP-XDP3.md)
+* [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
+* [Intel ITP-XDP3](./Hardware/ITP-XDP3.md)
 * Intel ITP-XDP3B
 * Intel ITP-XDP3BR
 * Intel ITP-XDP4
-* Intel SVT CCA (Silicon View Technology Closed Chassis Adapter)
+* [Intel SVT CCA (Silicon View Technology Closed Chassis Adapter)](./Hardware/Intel%20SVT%20CCA.md)
 * Lauterbach LA-3776
 * Lauterbach LA-4607
 * Wind River ICE 2 with Intel Adapter Kit
 * Wind River Probe with Intel Adapter Kit
 
 ### AMD
-* [American Arium ECM-50](./Hardware/ECM-50/ECM-50.md) with PBD-AJ module
+* [American Arium ECM-50](./Hardware/ECM-50.md) with PBD-AJ module
 * American Arium ECM-HDT
-* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e/ECM-XDP3e.md)
+* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * AMD HDT Debug Kit (Possum)
 * AMD HDT/LPC Debug Kit (Purple Possum)
 * AMD HDT Platform Debug Kit (Wombat)
-* [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe/SmartProbe.md)
+* [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe.md)
 
 ## Debugger Connector
 ### Intel
