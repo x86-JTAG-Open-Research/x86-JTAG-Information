@@ -18,7 +18,7 @@
 * [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
 * [Intel ITP-XDP3](./Hardware/ITP-XDP3.md)
 * Intel ITP-XDP3B
-* Intel ITP-XDP3BR
+*  [Intel ITP-XDP3BR](./Hardware/ITP-XDP3BR.md)
 * Intel ITP-XDP4
 * [Intel SVT CCA (Silicon View Technology Closed Chassis Adapter)](./Hardware/Intel%20SVT%20CCA.md)
 * Lauterbach LA-3776
