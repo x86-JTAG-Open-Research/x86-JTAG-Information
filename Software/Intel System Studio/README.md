@@ -37,5 +37,5 @@ The following table outlines which versions of the Intel® Software Development 
 NOTE: If you are looking for older version, they can be found somewhere in the internet.
 | Vendor Name | Product Name | Version | Release Date | Download Link | SHA-256 Hash | Additional Note |
 | --- | --- | --- | --- | --- | --- | --- |
-| Intel | Intel System Studio | 2020.2 | 2020/07 | [Download](https://drive.google.com/file/d/15FPSfGDui_rlZNDiK7P2T7Z6pZsZnr8J/view) | 64388D08EC57819739D8F3048469ED079CE0D480 | |
+| Intel | Intel System Studio | 2020.2 | 2020/07 | [Download](https://drive.google.com/file/d/15FPSfGDui_rlZNDiK7P2T7Z6pZsZnr8J/view) | 64388D08EC57819739D8F3048469ED079CE0D480 | Warning: Following this link opens a new browser tab and sends you to a website outside of this page |
 | TODO | TODO! | TODO!! | TODO!!! | TODO!!! | TODO!!!! | TODO!!!!! |
