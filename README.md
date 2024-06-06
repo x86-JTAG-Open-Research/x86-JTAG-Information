@@ -12,9 +12,9 @@
 * [American Arium ECM-700 revA5](./Hardware/ECM-700_revA5.md)
 * American Arium ECM-XDP
 * [American Arium ECM-XDP3 revB2](./Hardware/ECM-XDP3_revB2.md)
-* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
-* ASSET Intertech (American Arium) ECM-CCC
-* [ASSET Intertech Pod II](./Hardware/Pod_II.md)
+* [ASSET InterTech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
+* ASSET InterTech (American Arium) ECM-CCC
+* [ASSET InterTech Pod II](./Hardware/Pod_II.md)
 * Intel ITP-XDP
 * [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
 * [Intel ITP-XDP3](./Hardware/ITP-XDP3.md)
@@ -30,7 +30,7 @@
 ### AMD
 * [American Arium ECM-50](./Hardware/ECM-50.md) with PBD-AJ module
 * American Arium ECM-HDT
-* [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
+* [ASSET InterTech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * AMD HDT Debug Kit (Possum)
 * AMD HDT/LPC Debug Kit (Purple Possum)
 * AMD HDT Platform Debug Kit (Wombat)
@@ -60,8 +60,8 @@
 ## Debugger Software
 ### Intel
 * [American Arium WinDb](./Software/SourcePoint)
-* [ASSET Intertech (American Arium) SourcePoint](./Software/SourcePoint)
-* ASSET Intertech ScanWorks
+* [ASSET InterTech (American Arium) SourcePoint](./Software/SourcePoint)
+* ASSET InterTech ScanWorks
 * [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
@@ -71,7 +71,7 @@
 * Wind River Workbench On-Chip Debugging 
 
 ### AMD
-* [ASSET Intertech (American Arium) SourcePoint](./Software/SourcePoint)
+* [ASSET InterTech (American Arium) SourcePoint](./Software/SourcePoint)
 * AMD Hardware Debug Tool (HDT)
 * AMD BIOSDBG
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](./Software/Sage%20EDK)

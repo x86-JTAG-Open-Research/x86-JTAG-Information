@@ -1,4 +1,4 @@
-# ASSET Intertech Pod II
+# ASSET InterTech Pod II
 ![Pod_II 1](./Pod_II/Pod_II_1.jpg)
 ![Pod_II 2](./Pod_II/Pod_II_2.jpg)
 ![Pod_II 3](./Pod_II/Pod_II_3.jpg)

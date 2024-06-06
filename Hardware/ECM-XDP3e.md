@@ -1,4 +1,4 @@
-# ASSET Intertech (American Arium) ECM-XDP3e
+# ASSET InterTech (American Arium) ECM-XDP3e
 ## Hardware
 ![ECM-XDP3e revC2 1](./ECM-XDP3e/ECM-XDP3e_revC2_1.jpg)
 ![ECM-XDP3e revC2 2](./ECM-XDP3e/ECM-XDP3e_revC2_2.jpg)
