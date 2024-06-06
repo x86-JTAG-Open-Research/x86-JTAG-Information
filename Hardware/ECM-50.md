@@ -3,4 +3,4 @@
 ## Firmware
 * Processor type: PowerPC big endian
 * OS: MQX RTOS
-## [Document](./Document)
+## [Document](./ECM-50/Document)

@@ -7,4 +7,4 @@
 ## Firmware
 * Processor type: ARM big endian
 * OS: MQX RTOS
-## [Document](./Document)
+## [Document](./ECM-XDP3/Document)
