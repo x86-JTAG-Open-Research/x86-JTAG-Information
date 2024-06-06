@@ -14,6 +14,7 @@
 * [American Arium ECM-XDP3 revB2](./Hardware/ECM-XDP3_revB2.md)
 * [ASSET Intertech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * ASSET Intertech (American Arium) ECM-CCC
+* [ASSET Intertech Pod II](./Hardware/Pod_II.md)
 * Intel ITP-XDP
 * [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
 * [Intel ITP-XDP3](./Hardware/ITP-XDP3.md)
@@ -60,6 +61,7 @@
 ### Intel
 * [American Arium WinDb](./Software/SourcePoint)
 * [ASSET Intertech (American Arium) SourcePoint](./Software/SourcePoint)
+* ASSET Intertech ScanWorks
 * [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
