@@ -18,7 +18,7 @@
 * [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
 * [Intel ITP-XDP3](./Hardware/ITP-XDP3.md)
 * Intel ITP-XDP3B
-* Intel ITP-XDP3BR
+*  [Intel ITP-XDP3BR](./Hardware/ITP-XDP3BR.md)
 * Intel ITP-XDP4
 * [Intel SVT CCA (Silicon View Technology Closed Chassis Adapter)](./Hardware/Intel%20SVT%20CCA.md)
 * Lauterbach LA-3776
@@ -63,7 +63,7 @@
 * [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
-* Intel System Studio
+* [Intel System Studio](./Software/Intel%20System%20Studio)
 * Intel System Debugger
 * Lauterbach TRACE32
 * Wind River Workbench On-Chip Debugging 
