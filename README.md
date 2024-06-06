@@ -63,7 +63,7 @@
 * [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
-* Intel System Studio
+* [Intel System Studio](./Software/Intel%20System%20Studio)
 * Intel System Debugger
 * Lauterbach TRACE32
 * Wind River Workbench On-Chip Debugging 
