@@ -1,4 +1,4 @@
-# Interposer
+# Topside Probe (TSP)
 ## TSP-PCH-1(LPT-D)
 ![TSP-PCH-1(LPT-D) 1](./TSP-PCH-1(LPT-D)/TSP-PCH-1(LPT-D)_1.jpg)
 ![TSP-PCH-1(LPT-D) 2](./TSP-PCH-1(LPT-D)/TSP-PCH-1(LPT-D)_2.jpg)

@@ -1,4 +1,4 @@
-# Interposer
+# Topside Probe (TSP)
 ## TSP-BGA1
 ![TSP-BGA1 1](./TSP-BGA1/TSP-BGA1_1.jpg)
 ![TSP-BGA1 2](./TSP-BGA1/TSP-BGA1_2.jpg)

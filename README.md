@@ -39,8 +39,9 @@
 ## Debugger Connector
 ### Intel
 * [Interposer](./Connector/Interposer.md)
-* [TSP-BGA1](./Connector/TSP-BGA1.md)
-* [TSP-PCH-1(LPT-D)](./Connector/TSP-PCH-1(LPT-D).md)
+* Topside Probe (TSP)
+    * [TSP-BGA1](./Connector/TSP-BGA1.md)
+    * [TSP-PCH-1(LPT-D)](./Connector/TSP-PCH-1(LPT-D).md)
 * In Target Probe (ITP)
     * [20-pin "Old" ITP (Original Pentium family single processor only)](./Connector/ITPOld20.md)
     * [30-pin "Old" ITP (Original Pentium or later)](./Connector/ITPOld.md)
