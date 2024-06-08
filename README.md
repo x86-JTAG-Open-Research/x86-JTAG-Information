@@ -15,6 +15,7 @@
 * [ASSET InterTech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * ASSET InterTech (American Arium) ECM-CCC
 * [ASSET InterTech Pod II](./Hardware/Pod_II.md)
+* Intel ITP-USB
 * Intel ITP-XDP
 * [Intel ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
 * [Intel ITP-XDP3](./Hardware/ITP-XDP3.md)
