@@ -68,8 +68,8 @@
 * [American Arium WinDb](./Software/SourcePoint)
 * [ASSET InterTech (American Arium) SourcePoint](./Software/SourcePoint)
 * ASSET InterTech ScanWorks
-* ASSET InterTech (International Test Technologies) µMaster (MicroMaster)
-* ASSET InterTech PCT (Processor-Controlled Test)
+* [ASSET InterTech (International Test Technologies) µMaster (MicroMaster)](./Software/Processor-Controlled%20Test)
+* [ASSET InterTech PCT (Processor-Controlled Test)](./Software/Processor-Controlled%20Test)
 * [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
