@@ -15,6 +15,7 @@
 * [ASSET InterTech (American Arium) ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * ASSET InterTech (American Arium) ECM-CCC
 * ASSET InterTech (International Test Technologies) µMaster (MicroMaster)
+* ASSET InterTech PCT (Processor-Controlled Test)
 * [ASSET InterTech Pod II](./Hardware/Pod_II.md)
 * Intel ITP-USB
 * Intel ITP-XDP
@@ -68,6 +69,7 @@
 * [ASSET InterTech (American Arium) SourcePoint](./Software/SourcePoint)
 * ASSET InterTech ScanWorks
 * ASSET InterTech (International Test Technologies) µMaster (MicroMaster)
+* ASSET InterTech PCT (Processor-Controlled Test)
 * [CAD-UL XDB](./Software/CAD-UL%20XDB)
 * Intel ITPII
 * Intel Platform Debug Toolkit (PDT)
