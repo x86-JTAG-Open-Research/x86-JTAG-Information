@@ -13,3 +13,4 @@
 ## Firmware
 * Processor type: XPC850DEZT50BT
 * OS: ?
+## [Document](./ECM-20/Document)
