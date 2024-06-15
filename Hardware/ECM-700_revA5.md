@@ -17,3 +17,4 @@
 ## Firmware
 * Processor type: ARM big endian
 * OS: MQX RTOS
+## [Document](./ECM-700/Document)
