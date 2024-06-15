@@ -1,0 +1,68 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File: ViewScrn.MAC       
+// For:  SuorcePoint Command Language
+// 
+// Purpose: Displays Video Text As It Would Appear On Monitor
+////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////
+// Procedure 'ShowChar' to process & display characters
+////////////////////////////////////////////////////////////
+
+redefine proc ShowChar(CurrentChar)  //This is a small procedure called by viewscrn
+define char CurrentChar
+{
+  if (CurrentChar < 20h)
+  {
+    printf("%c", 20h)   // If less the 20h, display it as a space
+  } else {
+    printf("%c", CurrentChar & 7fh)   // Otherwise, just display it with MSB masked off
+  }
+}
+
+////////////////////////////////////////////////////////////
+// Procedure 'viewscrn' is called to display the screen
+// Screen memory location is specified by 'mem' parameter
+// Screen location is usually 000B8000hp
+////////////////////////////////////////////////////////////
+
+redefine proc viewscrn(mem)
+define pointer mem
+{
+  define byte ScrnChar
+  define dword Index
+  define ord8 MemChunk
+  define pointer memptr
+  define nstring Header1 = "\n\n                View of the target text screen at address"
+  define nstring Header2 = "  |--------------------------------------------------------------------------------"
+  define nstring Footer = "|\n  |--------------------------------------------------------------------------------|\n"
+  define nstring LineBreak = "|\n  |"
+
+  if (mem == 0hp) mem = 000B8000h
+
+  printf("%s %8p\n", Header1, mem)			//Show the headers in the command window
+  printf("%s", Header2)
+
+
+  for (Index=0; Index<4000t;)
+  {
+      memptr = mem + Index
+      MemChunk = ord8(memptr)	//Get an 8 byte chunk of screen memory (contains 4 chars)
+
+      if ((Index%160t) == 0)	//Start a new line every 80 characters
+      {
+        printf("%s", LineBreak)
+      }
+
+      ShowChar(MemChunk)	//Show 1st char
+      ShowChar(MemChunk >> 16t)	//Show 2nd char
+      ShowChar(MemChunk >> 32t)	//Show 3rd char
+      ShowChar(MemChunk >> 48t)	//Show 4th char
+      Index += 8
+  }
+  printf("%s", Footer)		//Show the footers in the command window
+}
+

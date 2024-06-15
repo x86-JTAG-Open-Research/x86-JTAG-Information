@@ -1,0 +1,97 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File:     MemTest.MAC      
+// For:      SourcePoint Command Language
+// 
+// Purpose:  Performs memory test on a 64K memory segment
+// See the accompanying MemTest.DOC document for further info
+////////////////////////////////////////////////////////////
+
+define proc checkmem(wTestSeg,dTestvalue)
+  define word wTestSeg
+  define dword dTestvalue
+{
+  define pointer pTest = wTestSeg:0
+
+  define int iFailures = 0
+  define int iMaxFailure = 5t           // Max failures before a single test fails
+
+  printf("\t\t...filling with %08lX's\n",dTestvalue>>20,dTestvalue)
+  dword pTest len 4000 = dTestvalue      // Fastest way of filling memory
+  printf("\t\t...verifying...\n")
+
+  define qword qTestvalue                // create qword for faster verification
+  qTestvalue = dTestvalue
+  qTestvalue <<= 20
+  qTestvalue += dTestvalue
+
+  do                                                // Loop through for memory reads
+  {
+    if (qword pTest != qTestvalue)         // qword reads the fastest
+    {
+      if (dword pTest != dTestvalue)         // test 1st dword
+      {
+         printf("\t\t\t Failure %d at ",++iFailures)
+         dword pTest len 1
+      }
+
+      pTest+=4
+      if (dword pTest != dTestvalue)     // test 2nd dword
+      {
+         printf("\t\t\t Failure %d at ",++iFailures)
+         dword pTest len 1
+      }
+      pTest-=4
+
+      if (iFailures >= iMaxFailure)
+      {
+        printf("Maximum failures (%i); test aborted.\n", iFailures)
+        break
+      }
+    }
+
+    pTest += 8
+  }
+  while (pTest < wTestSeg:010000 )
+
+  putchar('\n')
+}
+
+define proc mtest()
+{
+  define word wSegment = 0
+  define word wHowMany = 1
+
+  // Get optional arguments to replace defaults
+  if (argcount > 0) wSegment = argvector[0]
+  if (argcount > 1) wHowMany = argvector[1]
+
+  // Create a new output file for test results
+  flist("MemTest.txt",0)
+
+  printf("Testing 64K memory starting at %X:0\n", wSegment)
+
+  define word i
+  define dword dMarching
+
+  for (i = 1 ; i <= wHowMany ; ++i)
+  {
+    printf("\tIteration %i of %i\n", i, wHowMany)
+
+    checkmem(wSegment,0)
+    checkmem(wSegment,0FFFFFFFF)
+    checkmem(wSegment,0A5A5A5A5)
+    checkmem(wSegment,05A5A5A5A)
+
+    // Seed and start the marching 1's test
+
+    for (dMarching = 1; dMarching != 0; dMarching <<= 1)
+    {
+      checkmem(wSegment,dMarching)
+    }
+  }
+  nolist
+}
+
+

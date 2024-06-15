@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File: memdump.MAC       
+// For:  SuorcePoint Command Language
+// 
+// Purpose: Dump a real-mode memory segment
+////////////////////////////////////////////////////////////
+
+redefine proc dumpmem()
+{
+        /* Purpose:  Demonstrate how dump a real-mode memory segment */
+
+        define dword dLupvar
+        define word wSegment = 0
+        define word wMaxBytes = 512t
+
+        if (argcount > 0) wSegment = argvector[0]
+
+        flist("MemDump.txt", 0)                                  // 0 for new, 1 to append
+
+        printf("Dumping 64K memory starting at %X:0\n", wSegment)
+
+        for (dLupvar = 0 ; dLupvar < 0FFF0h ; dLupvar+=wMaxBytes) byte wSegment:dLupvar len wMaxBytes
+
+        nolog
+}
+
+
+
+
+

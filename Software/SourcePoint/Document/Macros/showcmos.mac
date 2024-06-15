@@ -1,0 +1,86 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File: ShowCMOS.mac
+// For:  SourcePoint Command Language
+// 
+// Purpose: Displays Target BIOS CMOS Via Ports 70h & 71h
+////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////
+// GetCMOS function
+////////////////////////////////////////////////////////////
+
+redefine proc GetCMOS(CMOSIndex)
+
+define byte CMOSIndex
+{
+  port 70h = CMOSIndex
+  return port 71h
+}
+
+
+////////////////////////////////////////////////////////////
+// showcmos funtion
+////////////////////////////////////////////////////////////
+redefine proc showcmos()
+{
+  printf("\n  Contents Of The Target System's CMOS RAM:\n\n")
+  printf("                    CMOS Setting  Value     Index\n")
+  printf("  ------------------------------  --------  -------------\n")
+  printf("%32.32s  %2.2X:%2.2X:%-3.2X 04h, 02h, 00h\n", "Current Time",GetCMOS(04h), GetCMOS(02h), GetCMOS(00h))
+  printf("%32.32s  %2.2X/%2.2X/%-3.2X 08h, 07h, 09h\n", "Current Date", GetCMOS(08h), GetCMOS(07h), GetCMOS(09h))
+  printf("%32.32s  %2.2X:%2.2X:%-3.2X 05h, 03h, 01h\n", "Alarm Setting", GetCMOS(05h), GetCMOS(03h), GetCMOS(01h))
+  printf("%32.32s  %-9.2X 06h\n", "Day Of Week", GetCMOS(06h))
+  printf("%32.32s  %-9.2X 0Ah\n", "Status Reg A", GetCMOS(0Ah))
+  printf("%32.32s  %-9.2X 0Bh\n", "Status Reg B", GetCMOS(0Bh))
+  printf("%32.32s  %-9.2X 0Ch\n", "Status Reg C", GetCMOS(0Ch))
+  printf("%32.32s  %-9.2X 0Dh\n", "Status Reg D", GetCMOS(0Dh))
+  printf("%32.32s  %-9.2X 0Eh\n", "Diagnostic Status", GetCMOS(0Eh))
+  printf("%32.32s  %-9.2X 0Fh\n", "Shutdown Status", GetCMOS(0Fh))
+  printf("%32.32s  %-9.2X 10h\n", "Floppy Type", GetCMOS(10h))
+  printf("%32.32s  %-9.2X 11h\n", "Reserved", GetCMOS(11h))
+  printf("%32.32s  %-9.2X 12h\n", "Hard Disk Type", GetCMOS(12h))
+  printf("%32.32s  %-9.2X 13h\n", "Reserved", GetCMOS(13h))
+  printf("%32.32s  %-9.2X 14h\n", "Device Byte", GetCMOS(14h))
+  printf("%32.32s  %2.2X%-7.2X 16h, 15h\n", "Base Memory", GetCMOS(16h), GetCMOS(15h))
+  printf("%32.32s  %2.2X%-7.2X 18h, 17h\n", "Setup Extended Memory", GetCMOS(18h), GetCMOS(17h))
+  printf("%32.32s  %-9.2X 19h\n", "Extension Byte (HD#1)", GetCMOS(19h))
+  printf("%32.32s  %-9.2X 1Ah\n", "Extension Byte (HD#2)", GetCMOS(1Ah))
+  printf("%32.32s  %-9.2X 1Bh\n", "Reserved", GetCMOS(1Bh))
+  printf("%32.32s  %-9.2X 1Ch\n", "Reserved", GetCMOS(1Ch))
+  printf("%32.32s  %-9.2X 1Dh\n", "Reserved", GetCMOS(1Dh))
+  printf("%32.32s  %-9.2X 1Eh\n", "Reserved", GetCMOS(1Eh))
+  printf("%32.32s  %-9.2X 1Fh\n", "Reserved", GetCMOS(1Fh))
+  printf("%32.32s  %-9.2X 20h\n", "Hard Disk Type 48 Parameter(0)", GetCMOS(20h))
+  printf("%32.32s  %-9.2X 21h\n", "Hard Disk Type 48 Parameter(1)", GetCMOS(21h))
+  printf("%32.32s  %-9.2X 22h\n", "Hard Disk Type 48 Parameter(2)", GetCMOS(22h))
+  printf("%32.32s  %-9.2X 23h\n", "Hard Disk Type 48 Parameter(3)", GetCMOS(23h))
+  printf("%32.32s  %-9.2X 24h\n", "Hard Disk Type 48 Parameter(4)", GetCMOS(24h))
+  printf("%32.32s  %-9.2X 25h\n", "Hard Disk Type 48 Parameter(5)", GetCMOS(25h))
+  printf("%32.32s  %-9.2X 26h\n", "Hard Disk Type 48 Parameter(6)", GetCMOS(26h))
+  printf("%32.32s  %-9.2X 27h\n", "Hard Disk Type 48 Parameter(7)", GetCMOS(27h))
+  printf("%32.32s  %-9.2X 28h\n", "Reserved", GetCMOS(28h))
+  printf("%32.32s  %-9.2X 29h\n", "Reserved", GetCMOS(29h))
+  printf("%32.32s  %-9.2X 2Ah\n", "Reserved", GetCMOS(2Ah))
+  printf("%32.32s  %-9.2X 2Bh\n", "Reserved", GetCMOS(2Bh))
+  printf("%32.32s  %-9.2X 2Ch\n", "Reserved", GetCMOS(2Ch))
+  printf("%32.32s  %-9.2X 2Dh\n", "Reserved", GetCMOS(2Dh))
+  printf("%32.32s  %2.2X%-7.2X 2Fh, 2Eh\n", "Checksum", GetCMOS(2Fh), GetCMOS(2Eh))
+  printf("%32.32s  %2.2X%-7.2X 31h, 30h\n", "POST Memory", GetCMOS(31h), GetCMOS(30h))
+  printf("%32.32s  %-9.2X 32h\n", "Century (BCD)", GetCMOS(32h))
+  printf("%32.32s  %-9.2X 33h\n", "Setup Information", GetCMOS(33h))
+  printf("%32.32s  %-9.2X 34h\n", "Reserved", GetCMOS(34h))
+  printf("%32.32s  %-9.2X 35h\n", "Hard Disk Type 49 Parameter(0)", GetCMOS(35h))
+  printf("%32.32s  %-9.2X 36h\n", "Hard Disk Type 49 Parameter(1)", GetCMOS(36h))
+  printf("%32.32s  %-9.2X 37h\n", "Hard Disk Type 49 Parameter(2)", GetCMOS(37h))
+  printf("%32.32s  %-9.2X 38h\n", "Hard Disk Type 49 Parameter(3)", GetCMOS(38h))
+  printf("%32.32s  %-9.2X 39h\n", "Hard Disk Type 49 Parameter(4)", GetCMOS(39h))
+  printf("%32.32s  %-9.2X 3Ah\n", "Hard Disk Type 49 Parameter(5)", GetCMOS(3Ah))
+  printf("%32.32s  %-9.2X 3Bh\n", "Hard Disk Type 49 Parameter(6)", GetCMOS(3bh))
+  printf("%32.32s  %-9.2X 3Ch\n", "Hard Disk Type 49 Parameter(7)", GetCMOS(3Ch))
+  printf("%32.32s  %-9.2X 3Dh\n", "Reserved", GetCMOS(3Dh))
+  printf("%32.32s  %-9.2X 3Eh\n", "Reserved", GetCMOS(3Eh))
+  printf("%32.32s  %-9.2X 3Fh\n\n", "Reserved", GetCMOS(3Fh))
+}

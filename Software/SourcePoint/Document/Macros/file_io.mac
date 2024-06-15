@@ -1,0 +1,127 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File: file_io.MAC       
+// For:  SuorcePoint Command Language
+// 
+// Purpose: Demonstrate the file I/O functions: 
+//          fopen, fputc, fputs, fclose, fgetc, fgets, fprintf
+////////////////////////////////////////////////////////////
+
+
+redefine proc TestFileIOErrors()
+{
+        define ord4 fp1
+
+        //
+        // try some error conditions
+        //
+
+        fclose(fp1)                 // already closed
+        fclose(0)                   // illegal value
+        fclose(32)                  // illegal value
+        fputc('A',1)                // not open
+        fopen("wewewewe", "r")      // file couldn't be opened
+        fopen("123")                // not enough args
+        fclose("123")               // wrong arg type
+        fp1 = fopen("foo1","r")     // open same file twice
+        fp1 = fopen("foo1","r")
+        
+        fclose(fp1)
+}
+
+
+redefine proc OpenClose()
+{
+        define string buf = ""
+        define ord4 x
+        define ord4 testfile1                   // file handles
+
+        define int MaxFiles = 500t
+
+        printf("Writing %i files...\n", MaxFiles)
+        for (x = 0; x <= MaxFiles ; x++)
+                {
+                  sprintf(buf, "%lx", x)        // turn loop variable into string
+
+                  testfile1 = fopen("killme" + buf  + ".dat", "w")
+
+                  sprintf(buf, "%i", testfile1) // convert fhandle to string
+                  fputs(buf,testfile1)          // save the file handle
+                 }
+
+         printf("Closing %i files...\n", MaxFiles)
+
+         // Note that file handles are 1 based, not 0 based.
+         for (x = 1; x < MaxFiles + 1 ; x++) fclose(x) 
+}
+
+
+redefine proc TestGet()
+{
+        define string sbuf = ""
+	define int cbuf
+        define ord4 x
+        define ord4 testfile1                   // file handles
+
+        define int MaxFiles = 500t
+
+        printf("Reading %i files...\n", MaxFiles)
+        for (x = 0; x <= MaxFiles ; x++)
+                {
+                  sprintf(buf, "%lx", x)        // turn loop variable into string
+
+                  testfile1 = fopen("killme" + buf  + ".dat", "w")
+		  fgetc(cbuf, testfile1)	// Get a char
+                  fgets(sbuf, testfile1)	// Get the string
+		  fclose(testfile1)
+                 }
+
+         printf("Closing %i files...\n", MaxFiles)
+
+         // Note that file handles are 1 based, not 0 based.
+         for (x = 1; x < MaxFiles + 1 ; x++) fclose(x) 
+}
+
+
+redefine proc SimpleFileIO()
+{
+        define ord4 testfile1 = fopen("killme1.dat", "w")   // open/overwrite a new file
+        define ord4 testfile2 = fopen("killme2.dat", "a")   // append file
+
+        fputs("987\n",testfile1)        // string to the first file
+        fputs("ZYX\n", testfile2)       // string to the second
+
+
+        fputs("1", testfile1)           // then put out single char strings
+        fputs("A", testfile2)
+
+        define string Output1
+        Output1 = "2"
+        define string Output2
+        Output2 = "B"
+
+        fprintf(Output1, testfile1)       // then string variables
+        fprintf(Output2, testfile2)
+
+        fputc('3', testfile1)           // then characters
+        fputc('C', testfile2)
+
+        fclose(testfile1)               // close them, just to make sure
+        fclose(testfile2)               // they were written
+
+        testfile1 = fopen("killme1.dat","r")    // reopen them
+        testfile2 = fopen("killme2.dat","r")
+
+        define nstring buf1 = ""
+        define nstring buf2 = ""
+
+        fgets(buf1, testfile1)          // get the strings and verify they're ok
+        fgets(buf2, testfile2)
+
+        printf("KILLME1.DAT: %s, should be 987\n", buf1)
+        printf("KILLME2.DAT: %s, should be ZYX\n", buf2)
+
+        fclose(testfile1)
+        fclose(testfile2)
+}
