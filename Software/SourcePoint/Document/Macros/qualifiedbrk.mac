@@ -1,0 +1,26 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File: QualifiedBrk.MAC
+// For:  SourcePoint Command Language
+// 
+// Purpose: Runs until specific value accessed at port 80h
+////////////////////////////////////////////////////////////
+
+define procedure qualbrk(stopvalue)
+define byte stopvalue
+{
+  dbgremove all
+  busremove all
+  emuremove all
+  softremove all
+  dbgbreak = i/o access, location=0080h, size=word
+  do{
+      go
+      wait
+    } while (al != stopvalue)
+  printf("\n\n Target Stopped At Port 80 Byte Access of %2X\n\n", stopvalue)
+}
+
+
+

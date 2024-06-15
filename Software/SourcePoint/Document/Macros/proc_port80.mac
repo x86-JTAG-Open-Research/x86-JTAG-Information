@@ -1,0 +1,24 @@
+define proc iobrk(io_data)
+define byte io_data
+
+{
+	////////// Remove port 80h breakpoint
+	dbgremove = i/o access, location = 0x80p, size = byte;
+
+	////////// Setup port 80h breakpoint
+	dbgbreak = i/o access, location = 0x80, size = byte;
+	
+	////////// Print startup header
+	printf("\n  Executing macro to record I/O port 80h byte accesses\n\n");
+	printf("  Macro will stop when port 80 access data = %02X\n\n", io_data);
+	do{
+		go;
+		wait;
+		printf("  Data At I/O Port 80h = %02X\n", port(80));
+	}	while (port(80) != io_data)
+
+	printf("\n  Macro Stopped!!!  Port 80h Access Data = %02X\n\n", port(80));
+	
+	////////// Remove port 80h breakpoint
+	dbgremove = i/o access, location = 0x80p, size = byte;
+}

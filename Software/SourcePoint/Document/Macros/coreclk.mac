@@ -1,0 +1,32 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+// File:     CORECLK.MAC      
+// For:      SourcePoint Command Language
+// 
+// Purpose:  Displays target processor's core clock frequency
+// See the accompanying CORECLK.DOC docment for further info
+////////////////////////////////////////////////////////////
+
+redefine proc coreclk()
+{
+  define byte j
+  define qword tcnt1
+  define qword tcnt2
+  define float tcntdiff
+
+  printf("\n\nCore clock rate will be displayed in 10 seconds...\n\n")
+ 
+  for (j=1;j<=2;j++)
+  {
+    tcnt1 = tsc; sleep(5); tcnt2 = tsc
+  }
+
+  tcntdiff = (tcnt2-tcnt1)/5000000t
+
+  printf("The core clock rate is approximately %4.f MHz ", tcntdiff)
+  printf("(or %1.3f GHz)\n\n",tcntdiff/1000t)
+}
+
+coreclk()
+
+

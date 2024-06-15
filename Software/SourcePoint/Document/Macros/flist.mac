@@ -1,0 +1,51 @@
+////////////////////////////////////////////////////////////
+//Copyright(c) 2014, ASSET InterTech Inc.
+//
+// File:  FLIST.MAC      
+// For:  SourcePoint Command Language
+// 
+// Purpose:  Demonstrates use of the flist command to control 
+// event logging
+// See the accompanying FLIST.DOC document for further info
+////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////
+// Syntax: flist(fname,x) 
+// Where:  fname is a path/filename for the log file
+//         x=0 to create new file or x=1 to append existing file
+////////////////////////////////////////////////////////////
+
+
+define proc demoflist()
+{
+  ////////////////////////////////////////////////////////////
+  // Use flist command to create a new log file
+  ////////////////////////////////////////////////////////////
+
+  flist ("mytest.txt",0)
+  // flist has created a new log file
+
+  printf("\n\nStart of Command Window logging using the flist command.\n\n")
+
+  nolist  ////Stop logging and close log file
+
+  printf("This sentence will *NOT* go to the mytest.txt file\n")
+  printf("because the previous line closed the log file.\n\n")
+
+  ////////////////////////////////////////////////////////////
+  // Use flist command to reopen existing log file and append to it
+  ////////////////////////////////////////////////////////////
+
+  flist ("mytest.txt",1)                
+  // flist has reopened the existing log file for appending
+  
+  regs
+
+  printf("\n\n\nNOTE: WinDb will now open a text editor to view the 'mytest.txt' log file\n\n\n")
+
+  nolist  ////Stop logging and close log file
+
+  sleep(2)
+
+  edit mytest.txt
+}

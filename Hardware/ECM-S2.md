@@ -13,3 +13,4 @@
 ## Firmware
 * Processor type: MC68302FC16
 * OS: ?
+## [Document](./ECM-20/Document)

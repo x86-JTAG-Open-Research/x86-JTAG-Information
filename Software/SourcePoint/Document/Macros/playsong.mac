@@ -1,0 +1,98 @@
+////////////////////////////////////////////////////////////
+// File: PlaySong.MAC
+// For:  American Arium Command Language
+// Date: 3/15/2001
+// Purpose: Plays a song through the target speaker
+////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////
+// Procedure to calibrate delay periods to the target core clock
+// This allows delays with 1/100 second granularity
+////////////////////////////////////////////////////////////
+
+define qword calfactor // Global for 1/100 second delay
+
+redefine proc calibrate()
+{
+  define qword tct1
+  define qword tct2
+  tct1 = tsc; sleep(1); tct2 = tsc
+  calfactor = tct2-tct1
+  calfactor = calfactor/100t // Provides 1/100 second delay
+}
+
+
+////////////////////////////////////////////////////////////
+// Procedure to provide a delay. Note that calibrate must
+// be called first to scale delay to the target core clock
+////////////////////////////////////////////////////////////
+
+redefine proc delay(duration)
+define qword duration
+{
+  redefine qword temp
+  duration = duration * calfactor
+  temp = tsc
+  do {} while (tsc-temp < duration)
+}
+
+
+////////////////////////////////////////////////////////////
+// Procedure to play the notes with a duration & pause period
+////////////////////////////////////////////////////////////
+
+redefine proc play(note,duration,pause)
+define word note
+define word duration
+define word pause
+{
+  note = 1193280t/note
+  port 43 = B6h           // Port 42 & 43 are 8253 PIT
+  port 42 = note % 100h   // Lower byte first
+  port 42 = note / 100h   // Upper byte second
+  port 61 = 03h           // Port 61 is 8042 I/O Controller
+  
+  delay(duration)
+  port 61 = 00h
+  delay(pause)
+}
+
+// Define the notes in Hertz
+
+redefine word c = 1047t
+redefine word d = 1175t
+redefine word e = 1329t
+redefine word f = 1397t
+redefine word g = 1568t
+
+// Procedure to play 'Mary Had A Little Lamb'
+
+redefine proc mary()
+{
+  play(e,10,4);play(d,10,4);play(c,10,4);play(d,10,4);play(e,10,4)
+  play(e,10,4);play(e,10,10)
+
+  play(d,10,4);play(d,10,4);play(d,10,9) 
+  play(e,10,4);play(g,10,4);play(g,10,10)
+
+  play(e,10,4);play(d,10,4);play(c,10,4);play(d,10,4);play(e,10,4)
+  play(e,10,4);play(e,10,10);
+
+  play(d,10,4);play(d,10,4);play(e,12,2);play(d,14,2);play(c,20,5);
+}
+
+////////////////////////////////////////////////////////////
+// Calibrate timing to target core clock
+////////////////////////////////////////////////////////////
+
+calibrate()
+
+////////////////////////////////////////////////////////////
+// Play the song
+////////////////////////////////////////////////////////////
+
+mary()
+
+
+
