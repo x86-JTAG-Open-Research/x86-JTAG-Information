@@ -79,6 +79,7 @@
 * Intel System Debugger
 * [Intel System Bring-up Toolkit NDA](./Software/Intel%20System%20Bring-up%20Toolkit%20NDA)
 * Lauterbach TRACE32
+* [MICETEK (MICROTEK) PowerPack SLD](./Software/PowerPack%20SLD)
 * Wind River Workbench On-Chip Debugging 
 
 ### AMD
