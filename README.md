@@ -84,7 +84,7 @@
 
 ### AMD
 * [ASSET InterTech (American Arium) SourcePoint](./Software/SourcePoint)
-* AMD Hardware Debug Tool (HDT)
+* [AMD Hardware Debug Tool (HDT)](./Software/AMD%20HDT%20NDA)
 * AMD BIOSDBG
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](./Software/Sage%20EDK)
 
