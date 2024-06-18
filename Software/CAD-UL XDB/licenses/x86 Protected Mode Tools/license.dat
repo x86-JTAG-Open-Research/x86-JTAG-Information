@@ -1,0 +1,50 @@
+SERVER DUMMY ANY 7152
+DAEMON cadul c:\flexlm\cadul.exe 
+FEATURE C301X1XX cadul 1.000 01-jan-0 0 5C0194E163AA73D99E91 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL CC386\
+ COMPILER  for Windows 95/NT" \
+	 ck=204
+FEATURE D301X1XX cadul 1.000 01-jan-0 0 5C618471D737B275E8E2 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL C++ COMPILER\
+ CXX386  for Windows 95/NT" \
+	 ck=198
+FEATURE W301X1XX cadul 1.000 01-jan-0 0 ECD17431808C509042DA HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL WORKBENCH\
+  for Windows 95/NT" \
+	 ck=246
+FEATURE X322G1XX cadul 1.000 01-jan-0 0 3CF154910D9AB7C59489 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL DEBUG\
+ INTERFACE ADAPTION KIT  for Windows 95/NT" \
+	 ck=207
+FEATURE X322S1XX cadul 1.000 01-jan-0 0 DC312491094D7AD0580C HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL XDB386\
+ ROM MONITOR  for Windows 95/NT" \
+	 ck=215
+FEATURE X337S1XX cadul 1.000 01-jan-0 0 ECA1A471A17E465E8981 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL XDB386\
+ RMOS3  for Windows 95/NT" \
+	 ck=5
+FEATURE X365X1XX cadul 1.000 01-jan-0 0 2CA1E4517BF989134AF3 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL XDB386\
+ FOR NT NATIVE  for Windows 95/NT" \
+	 ck=12
+FEATURE X375G1XX cadul 1.000 01-jan-0 0 6CC1B4C155329872B572 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL XDB SIMULATOR\
+  for Windows 95/NT" \
+	 ck=197
+FEATURE X381G1XX cadul 1.000 01-jan-0 0 1C91248151D1D5A7B423 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL XDB386\
+ OCDEMON  for Windows 95/NT" \
+	 ck=231
+FEATURE Z301X1XX cadul 1.000 01-jan-0 0 9C1114E185254C327FE2 HOSTID=ANY \
+	 NOTICE="[x86 Protected Mode Tools License-universal] CAD-UL GLINK\
+  for Windows 95/NT" \
+	 ck=221
+
+
+#NOTE: You can edit the hostname on the server line (1st arg),
+#      the port address on the server line (3rd arg), the path
+#      to the daemon on the daemon line (2nd arg), or any
+#      right-half of a string (b) of the form a=b where (a) is all
+#      lowercase. (For example, xxx in  vendor_info="xxx" can be
+#      changed).  Any other changes will invalidate this license.

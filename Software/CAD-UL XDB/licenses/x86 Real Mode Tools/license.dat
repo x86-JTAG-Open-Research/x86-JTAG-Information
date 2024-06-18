@@ -1,0 +1,24 @@
+SERVER DUMMY ANY 7152
+DAEMON cadul c:\flexlm\cadul.exe 
+FEATURE C001X1XX cadul 1.000 01-jan-0 0 ACE10491F56A8B4F4666 HOSTID=ANY \
+	 NOTICE="[x86 Real Mode Tools License-universal] CAD-UL CC86 COMPILER\
+  for Windows 95/NT" \
+	 ck=202
+FEATURE W301X1XX cadul 1.000 01-jan-0 0 2CD144D1BCDC268FC697 HOSTID=ANY \
+	 NOTICE="[x86 Real Mode Tools License-universal] CAD-UL WORKBENCH  for Windows 95/NT" \
+	 ck=49
+FEATURE X040S1XX cadul 1.000 01-jan-0 0 3C6164D1687612074886 HOSTID=ANY \
+	 NOTICE="[x86 Real Mode Tools License-universal] CAD-UL XDB86 ROM MONITOR\
+  for Windows 95/NT" \
+	 ck=142
+FEATURE X375G1XX cadul 1.000 01-jan-0 0 8C41C4E1FFB3FE1476FA HOSTID=ANY \
+	 NOTICE="[x86 Real Mode Tools License-universal] CAD-UL XDB SIMULATOR\
+  for Windows 95/NT" \
+	 ck=24
+
+#NOTE: You can edit the hostname on the server line (1st arg),
+#      the port address on the server line (3rd arg), the path
+#      to the daemon on the daemon line (2nd arg), or any
+#      right-half of a string (b) of the form a=b where (a) is all
+#      lowercase. (For example, xxx in  vendor_info="xxx" can be
+#      changed).  Any other changes will invalidate this license.
