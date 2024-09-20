@@ -1,0 +1,10 @@
+# AMD HDT/LPC Debug Kit (Purple Possum)
+## Hardware
+![HDTLPC 1](./HDTLPC/HDTLPC_1.jpg)
+![HDTLPC 2](./HDTLPC/HDTLPC_2.jpg)
+![HDTLPC 3](./HDTLPC/HDTLPC_3.jpg)
+![HDTLPC 4](./HDTLPC/HDTLPC_4.jpg)
+![HDTLPC 5](./HDTLPC/HDTLPC_5.jpg)
+![HDTLPC 6](./HDTLPC/HDTLPC_6.jpg)
+![HDTLPC 7](./HDTLPC/HDTLPC_7.jpg)
+![HDTLPC 8](./HDTLPC/HDTLPC_8.jpg)

@@ -42,7 +42,7 @@
     * [ECM-XDP3e](./Hardware/ECM-XDP3e.md)
 * AMD
     * HDT Debug Kit (Possum)
-    * HDT/LPC Debug Kit (Purple Possum)
+    * [HDT/LPC Debug Kit (Purple Possum)](./Hardware/HDTLPC.md)
     * HDT Platform Debug Kit (Wombat)
 * [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe.md)
 
