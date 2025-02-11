@@ -65,6 +65,12 @@
     * [20-pin HDT+](./Connector/HDTPlus.md)
 * [16-pin Embedded Probe](./Connector/EmbeddedProbe.md)
 
+## Debugger Protocol
+### Intel
+* TODO
+### AMD
+* TODO
+
 ## Debugger Software
 ### Intel
 * [American Arium WinDb](./Software/SourcePoint)
