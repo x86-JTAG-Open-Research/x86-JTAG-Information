@@ -65,6 +65,12 @@
     * [20-pin HDT+](./Connector/HDTPlus.md)
 * [16-pin Embedded Probe](./Connector/EmbeddedProbe.md)
 
+## Debugger Protocol
+### Intel
+* TODO
+### AMD
+* TODO
+
 ## Debugger Software
 ### Intel
 * [American Arium WinDb](./Software/SourcePoint)
@@ -92,15 +98,3 @@
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](./Software/Sage%20EDK)
 
 ## [Debugger Target](./Target/Target.md)
-
-## Debugger Protocol
-### Connection Between Debugger Hardware and Debugger Target
-#### Intel
-* TODO
-#### AMD
-* TODO
-### Connection Between Debugger Software and Debugger Hardware
-#### Intel
-* TODO
-#### AMD
-* TODO
