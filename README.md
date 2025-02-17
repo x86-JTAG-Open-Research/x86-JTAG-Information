@@ -45,6 +45,7 @@
     * [HDT/LPC Debug Kit (Purple Possum)](./Hardware/HDTLPC.md)
     * HDT Platform Debug Kit (Wombat)
 * [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe.md)
+    * [Technical Information](./Hardware/SmartProbe/TechnicalInformation.md)
 
 ## Debugger Connector
 ### Intel
