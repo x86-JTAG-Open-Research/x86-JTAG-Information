@@ -43,7 +43,7 @@
 * AMD
     * HDT Debug Kit (Possum)
     * [HDT/LPC Debug Kit (Purple Possum)](./Hardware/HDTLPC.md)
-    * HDT Platform Debug Kit (Wombat)
+    * [HDT Platform Debug Kit (Wombat)](./Hardware/AMD_WOMBAT.md)
 * [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe.md)
     * [Technical Information](./Hardware/SmartProbe/TechnicalInformation.md)
 
