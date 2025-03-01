@@ -2,7 +2,7 @@
 ## Populated
 ![Populated](./EmbeddedProbe/EmbeddedProbe_P.jpg)
 ## Not populated
-TODO
+![Not Populated](./EmbeddedProbe/EmbeddedProbe_NP.jpg)
 
 ## Pinout for (16-pin) Embedded HDT Connector    
 
