@@ -15,5 +15,6 @@ NOTE 2: There are many more "probably debuggable" targets out there. This list i
 | Server | Dell | PowerEdge C6105 | AMD Opteron 4100, 4200 and 4300 Series | 20-pin HDT+ | Yes or No | |
 | Development Board | GizmoSphere | Gizmo | AMD G-Series SOC (FT1) | 16-pin Embedded Probe | Yes | |
 | Development Board | GizmoSphere | Gizmo II | AMD G-Series SOC (FT3) | 16-pin Embedded Probe | Yes | |
+| Thin Client | Fujitsu | Futro S700 | AMD G-Series SOC (FT1) | 16-pin Embedded Probe | No | Part Number: D3003-xxx |
 | Thin Client | Fujitsu | Futro S720 | AMD G-Series SOC (FT3) | 16-pin Embedded Probe | No | Part Number: D3313-xxx |
 | TODO | TODO! | TODO!! | TODO!!! | TODO!!!! | TODO!!!!! | TODO!!!!!! |
