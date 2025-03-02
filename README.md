@@ -7,6 +7,7 @@
 ### Intel
 * [Applied Microsystems CodeTAP](./Hardware/CodeTAP.md)
 * ASSET InterTech (American Arium)
+    * [ECM-6](./Hardware/ECM-6.md)
     * [ECM-S2](./Hardware/ECM-S2.md)
     * [ECM-20](./Hardware/ECM-20.md)
     * [TRC-20](./Hardware/TRC-20.md)
