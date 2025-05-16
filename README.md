@@ -45,6 +45,9 @@
     * HDT Debug Kit (Possum)
     * [HDT/LPC Debug Kit (Purple Possum)](./Hardware/HDTLPC.md)
     * [HDT Platform Debug Kit (Wombat)](./Hardware/AMD_WOMBAT.md)
+* FS2 (First Silicon Solutions)
+    * System Navigator Probe for AMD Geode GX and Geode LX (SNAV-GX)
+    * In-Target System Analyzer Probe for AMD (National Semiconductor) Geode GX2 (ISA-GEODE, ISA-GX)
 * [Sage Electronic Engineering SmartProbe](./Hardware/SmartProbe.md)
     * [Technical Information](./Hardware/SmartProbe/TechnicalInformation.md)
 
@@ -66,6 +69,8 @@
     * [25-pin HDT](./Connector/HDT.md)
     * [20-pin HDT+](./Connector/HDTPlus.md)
 * [16-pin Embedded Probe](./Connector/EmbeddedProbe.md)
+* 14-pin Geode Debug Connector
+* 38-pin Geode Trace Connector
 
 ## Debugger Software
 ### Intel
@@ -91,6 +96,9 @@
 * [ASSET InterTech (American Arium) SourcePoint](./Software/SourcePoint)
 * [AMD Hardware Debug Tool (HDT)](./Software/AMD%20HDT%20NDA)
 * AMD BIOSDBG
+* FS2 (First Silicon Solutions)
+  * System Navigator for AMD Geode GX and Geode LX
+  * ISA-Geode Debugger
 * [Sage Electronic Engineering Embedded Development Kit (EDK)](./Software/Sage%20EDK)
 
 ## [Debugger Target](./Target/Target.md)
