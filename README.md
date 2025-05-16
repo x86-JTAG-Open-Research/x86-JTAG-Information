@@ -72,6 +72,8 @@
 * 14-pin Geode Debug Connector
 * 38-pin Geode Trace Connector
 
+## [Debugger Protocol](./Protocol/Protocol.md)
+
 ## Debugger Software
 ### Intel
 * [American Arium WinDb](./Software/SourcePoint)
