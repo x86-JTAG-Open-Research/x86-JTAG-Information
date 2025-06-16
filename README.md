@@ -69,7 +69,7 @@
     * [25-pin HDT](./Connector/HDT.md)
     * [20-pin HDT+](./Connector/HDTPlus.md)
 * [16-pin Embedded Probe](./Connector/EmbeddedProbe.md)
-* 14-pin Geode Debug Connector
+* [14-pin Geode Debug Connector](./Connector/GeodeDebug.md)
 * 38-pin Geode Trace Connector
 
 ## Debugger Software
