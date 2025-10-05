@@ -21,7 +21,7 @@
 * ASSET InterTech PCT (Processor-Controlled Test)
 * [ASSET InterTech Pod II](./Hardware/Pod_II.md)
 * Intel
-    * ITP-USB
+    * [ITP-USB](./Hardware/ITP-USB.md)
     * ITP-XDP
     * [ITP-XDP2 rev02](./Hardware/ITP-XDP2_rev02.md)
     * [ITP-XDP3](./Hardware/ITP-XDP3.md)
