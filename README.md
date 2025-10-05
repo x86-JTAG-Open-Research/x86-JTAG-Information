@@ -13,7 +13,7 @@
     * [TRC-20](./Hardware/TRC-20.md)
     * [ECM-50](./Hardware/ECM-50.md)
     * [ECM-700 revA5](./Hardware/ECM-700_revA5.md)
-    * ECM-XDP
+    * [ECM-XDP](./Hardware/ECM-XDP.md)
     * [ECM-XDP3 revB2](./Hardware/ECM-XDP3_revB2.md)
     * [ECM-XDP3e](./Hardware/ECM-XDP3e.md)
     * ECM-CCC
